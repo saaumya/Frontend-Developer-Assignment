@@ -1,0 +1,326 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,700&display=swap');
+* {
+	font-family: 'DM Sans', sans-serif;
+}
+
+body{
+	background-color: #2F1893;
+	font-family: fontawesom;
+	/* // add box model */
+	/* font-family: 'Montserrat', sans-serif; */
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	height: 100%;
+	
+}
+
+ #header{
+  	display: flex;
+  	align-items: center;
+  	justify-content: space-between;
+  	padding: 20px 80px;
+  	position: sticky;
+  	top: 0;
+  	left: 0;
+    color: white;
+	width: auto;
+	height: 40px;
+  }
+#header a{
+	text-decoration: none;    /*remove underline */
+	font-weight: 600;
+	color: white;
+	transition: 0.3s ease; 
+}
+  .navbar{
+  	display: flex;     /*to align the*/
+  	align-items: center;
+  	justify-content: center;
+  }
+
+.navbar li{
+	list-style: none;    /*to remove bullet point*/
+	padding: 0 30px;
+	position: relative;
+}
+ 
+.navbar li a{
+	text-decoration: none;    /*remove underline
+	font-size: 16px;*/
+	font-weight: 600;
+	color: white;
+}
+
+.purchase_cta{
+	background: #e93a7d;
+	padding: 5px;
+	border-radius: 20px;
+	border: none;
+	color: white;
+	width: 120px;
+	height: 40px;
+	font-weight: 500;
+	
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+
+
+#hero{
+	margin-top: 12px;
+	width: 100%;
+	height: 100vh;
+	color: white;
+	/* padding: 100px; */
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+	justify-content: space-around;
+	/* row-gap: 200px; */
+	height: auto;
+}
+
+
+.left_container {
+	width: 500px;
+	height: 500px;
+	padding: 12px;
+}
+
+.left_container > h1 {
+	font-size: 58px;
+	font-weight: 700;
+	line-height: 15px;
+}
+
+.left_container > p {
+	font-size: 20px;
+	/* line-height: 1px; */
+	width: 20.2rem;
+	/* height: auto; */
+	/* word-spacing: -1px; */
+	/* line-break:normal; */
+	/* letter-spacing: 2px; */
+}
+
+.learn-more-cta {
+	display: inline-block;
+	width: 120px;
+	height: 40px;
+	padding: 5px;
+	font-weight: 500;
+	background: #e93a7d;
+	border-radius: 20px;
+	border: none;
+	color: white;
+	
+	
+}
+ 
+.sign-up-form{
+	width: 380px;
+	height: 500px;
+	box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.3);
+	background: white;
+	padding: 20px;
+	margin-right: 40px;
+	/*margin-bottom: -30%;*/
+	text-align: center;
+	color: black;
+	border-radius: 8px;
+}
+.sign-up-form h2{
+	margin-bottom: 20px;
+	color: #1E0E62;
+	font-weight: 700;
+	font-size: 32px;
+}
+
+.input-box{
+	border-radius: 25px;
+	padding: 10px;
+	margin: 5px 0;
+	width: 80%;
+	height: 25px;
+	border: 2px solid #e2e2e2;
+	outline: none;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-bottom: 20px;
+	/* font-weight: 600; */
+}
+
+.input-box::placeholder {
+	color: #a5a5a5;
+	font-weight: 500;
+}
+
+.button{
+	color: #fff;
+	width: 90%;
+	height: 50px;
+	padding: 10px;
+	margin: 10px 0;
+	border-radius: 25px;
+	font-size: 15px;
+	border: none;
+	outline: none;
+	cursor: pointer;
+}
+
+.agreement {
+	margin-top: -5px;
+	color: #757575;
+}
+
+form > p {
+	color: #757575;
+}
+
+.signup-btn{
+	background-color: #2F1893;
+}
+
+.twitter-btn{
+	background-color: #21afde;
+}
+
+.sign-in-text{
+	margin-left: 5px
+}
+
+
+a{
+	text-decoration: none;
+}
+
+.or{
+	position: relative;
+	border: none;
+	border-top: 1px solid #ccc;
+	text-align: center;
+	height: 0;
+	margin: 20px 0;
+}
+
+.or::before {
+	content: "or";
+    background-color: #fff;
+    padding: 0 10px;
+    position: relative;
+    top: -11px;
+    color: #a5a5a5;
+}
+
+.custom-checkbox {
+	display: inline-block;
+	position: relative;
+	padding-left: 35px;
+	margin-bottom: 12px;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none; 
+}
+
+
+
+input[type="checkbox"]:checked + .custom-checkbox-label {
+    color: black;
+}
+
+input[type="checkbox"] + .custom-checkbox-label {
+    color: #888;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*.sign{
+	border: 1px solid grey;
+	display: flex;
+	align-items: flex-start;
+	flex-direction: column;
+	justify-content: center;
+	margin-left: 40%;
+	background-color: white;
+	color: black;
+	border-radius: 5px;
+	padding: 50px;
+}
+
+#signhead{
+
+}
+
+input[type=text] {
+  width: 100%;
+  padding: 8px 20px;
+  margin: 5px 0;
+  box-sizing: border-box;
+  border-radius: 17px;
+  border-color: lightgrey;
+}
+input[type=password] {
+  width: 100%;
+  padding: 8px 20px;
+  margin: 5px 0;
+  box-sizing: border-box;
+  border-radius: 17px;
+  border-color: lightgrey;
+}*/
+
+
+
+
